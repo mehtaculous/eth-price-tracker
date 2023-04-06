@@ -10,10 +10,8 @@ async function fetchEthereumPrice() {
 function getBadgeColor(priceChangePercentage) {
   if (priceChangePercentage <= -5) {
     return '#F44336'; // Red
-  } else if (priceChangePercentage >= 5) {
+} else {
     return '#4CAF50'; // Green
-  } else {
-    return '#2196F3'; // Blue
   }
 }
 
